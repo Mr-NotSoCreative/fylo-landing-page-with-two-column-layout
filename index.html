@@ -49,7 +49,7 @@
             family, and co-workers.</p>
 
             <form action="action.php" method="post">
-              <input type="email" name="email" id="email" required>
+              <input type="email" name="email" id="email" required placeholder="Enter your email...">
               <button type="submit">Get Started</button>
             </form>
 
@@ -73,16 +73,48 @@
               <img src="./images/icon-arrow.svg" alt="arrow icon" class="arrow">
             </a>
 
-            <article class="testimonial">
-              <img src="./images/avatar-testimonial.jpg" alt="image of kyle burton" class="user-img">
-              <h3>Kyle Burton</h3>
-              <p class="user-info">Founder &amp; CEO, Huddle</p>
-              <p class="desc"> Fylo has improved our team productivity by an order of magnitude. Since 
+            <article class="testimonial-card">
+              <div class="user-info-div">
+              <picture><img src="./images/avatar-testimonial.jpg" alt="image of kyle burton" class="user-img"></picture>
+                <div class="name-div">
+                  <h3>Kyle Burton</h3>
+                  <p class="user-info">Founder &amp; CEO, Huddle</p>
+                </div>
+              </div>
+              <p class="desc testimonial-desc"> Fylo has improved our team productivity by an order of magnitude. Since 
                 making the switch our team has become a well-oiled collaboration machine.</p>
             </article>
         </article>
+
+        <picture>
+          <img src="./images/illustration-2.svg" alt="people being productive">
+        </picture>
       </div>
     </main>
+
+    <aside>
+      <article class="early-access">
+        <h2>Get early access today</h2>
+        <p> It only takes a minute to sign up and our free starter tier is extremely generous. 
+          If you have any questions, our support team would be happy to help you.</p>
+      </article>
+
+      <form action="action.php" method="post">
+        <input type="email" name="email" id="email" placeholder="example@example.com">
+        <button type="submit">Get Started For Free</button>
+      </form>
+
+    </aside>
+
+    <footer>
+      <section class="footer-fylo-section">
+        <h2 class="visually-hidden">Fylo</h2>
+        <picture>
+          <img src="./images/" alt="">
+        </picture>
+
+      </section>
+    </footer>
 
 
   </body>
