@@ -83,10 +83,7 @@ header {
   color: var(--Very-Dark-Blue);
   margin-bottom: 2rem;
 }
-/* main {
-    padding-left: 8rem;
-    padding-right: 8rem;
-  } */
+
 .main-input {
   width: 55%;
   padding: 1rem 2rem;
@@ -105,11 +102,7 @@ header {
 .main-button:hover {
   background-color: hsla(224, 93%, 58%, 0.801);
 }
-.testimonial-div {
-  /* padding-top: 5rem;
-    padding-left: 8rem;
-    padding-right: 8rem; */
-}
+
 
 .grayish-blue-bg {
   background-color: #f8f8fe;
@@ -144,9 +137,7 @@ header {
 .fa-circle-right {
   margin-left: 0.3rem;
 }
-/* .user-img {
-    display: block;
-  } */
+
 .testimonial-card {
   display: flex;
   flex-direction: column-reverse;
@@ -230,7 +221,7 @@ footer a {
   grid-column: 1 / -1;
 }
 .attribution a {
-  color: hsl(228, 45%, 44%);
+  color: var(--Moderate-Cyan);
 }
 .footer-fylo-section {
   grid-column: 1 / -1;
@@ -242,16 +233,21 @@ footer a {
 .contact-info-div img {
   margin-right: 1rem;
 }
+.social-icon {
+  display: flex;
+  gap: 1.5rem;
+}
 
 .social-icon a {
-  /* border: 1px solid white;
+ 
+  border: 1px solid var(--Light-Grayish-Blue);
   border-radius: 50%;
   text-align: center;
   width: 3rem;
   aspect-ratio: 1/1;
   display: grid;
   place-items: center;
-  font-size: 1.5rem; */
+  font-size: 1.5rem;
 }
 
 .footer-nav {
@@ -261,4 +257,5 @@ footer a {
 }
 .footer-nav a:hover, .social-icon a:hover {
   color: var(--Desaturated-Blue);
+  border-color: var(--Desaturated-Blue);
 }
