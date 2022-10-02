@@ -26,10 +26,8 @@
 
     <title>Frontend Mentor | Fylo landing page with two column layout</title>
 
-    <!-- <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style> -->
+    <style>
+  </style>
   </head>
   <body>
     <header>
@@ -131,21 +129,24 @@
     <footer>
       <section class="footer-fylo-section">
         <h2 class="visually-hidden">Fylo</h2>
-        <picture>
-          <img src="./images/logo-white.svg" alt="fylo logo">
+        <picture class="footer-picture">
+          <img src="./images/logo-white.svg" alt="fylo logo" class="footer-logo">
         </picture>
-
-        <div class="tel">
-          <img src="./images/icon-phone.svg" alt="phone icon">
-          <a href="tel:+15431234567">+1-543-123-4567</a>
-        </div>
-
-        <div class="mail">
-          <img src="./images/icon-email.svg" alt="email icon">
-          <a href="mailto:example@fylo.com">example@fylo.com</a>
-        </div>
-
       </section>
+
+        <div class="contact-info-div">
+          <div class="tel">
+            <img src="./images/icon-phone.svg" alt="phone icon">
+            Phone:
+            <a href="tel:+15431234567">+1-543-123-4567</a>
+          </div>
+          <div class="mail">
+            <img src="./images/icon-email.svg" alt="email icon">
+            <a href="mailto:example@fylo.com">example@fylo.com</a>
+          </div>
+        </div>
+
+      
 
       <nav class="footer-nav">
         <a href="#">About Us</a>
@@ -159,7 +160,7 @@
 
       </nav>
 
-      <picture class="social-icon">
+      <div class="social-icon">
 
         <a href="#"><i class="fab fa-facebook-f"></i> <span class="visually-hidden">facebook</span></a>
         <a href="#"><i class="fab fa-twitter"></i><span class="visually-hidden">twitter</span></a>
@@ -167,12 +168,12 @@
 
 
 
-      </picture>
+      </div>
 
-      <!-- <p class="attribution">
+      <p class="attribution">
         Challenge by <a href="https://www.frontendmentor.io/challenges/fylo-landing-page-with-two-column-layout-5ca5ef041e82137ec91a50f5" target="_blank">Frontend Mentor</a>. 
         Coded by <a href="https://www.frontendmentor.io/profile/Mr-NotSoCreative">Fahim Hossain</a>.
-      </p> -->
+      </p>
 
 
 
