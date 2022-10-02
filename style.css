@@ -70,6 +70,9 @@ a {
     justify-content: center;
     align-items: center;
     gap: 2rem;
+    margin-bottom: 17.5rem;
+    padding-left: 8rem;
+    padding-right: 8rem;
   }
   .illustration {
     width: 100%;
@@ -81,10 +84,10 @@ a {
     color: var(--Very-Dark-Blue);
     margin-bottom: 2rem;
   }
-  main {
+  /* main {
     padding-left: 8rem;
     padding-right: 8rem;
-  }
+  } */
   .main-input {
     width: 55%;
     padding: 1rem 2rem;
@@ -102,4 +105,23 @@ a {
   .main-button:hover {
     background-color: hsla(224, 93%, 58%, 0.801);
 
+  }
+  .testimonial-div {
+   
+    
+    /* padding-top: 5rem;
+    padding-left: 8rem;
+    padding-right: 8rem; */
+    
+  }
+  
+  .grayish-blue-bg {
+    background-color: #F8F8FE;
+    padding: 7rem 8rem;
+    display: flex;
+    gap: 2rem;
+  }
+  .curve-bg {
+    display: block;
+    max-width: 100%;
   }
