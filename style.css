@@ -87,7 +87,7 @@ header {
 .main-input {
   width: 55%;
   padding: 1rem 2rem;
-  margin-right: 1rem;
+  /* margin-right: 1rem; */
 }
 .main-button {
   border: none;
@@ -98,11 +98,16 @@ header {
   font-family: "Raleway", sans-serif;
   cursor: pointer;
   border-radius: 0.5rem;
+  min-width: 18.5rem;
 }
 .main-button:hover {
   background-color: hsla(224, 93%, 58%, 0.801);
 }
-
+.article-form {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
 
 .grayish-blue-bg {
   background-color: #f8f8fe;
@@ -186,6 +191,10 @@ aside {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
   align-items: center;
+  gap: 10rem;
+}
+.early-access {
+  max-width: 50rem;
 }
 .early-access h2 {
   color: inherit;
@@ -258,4 +267,14 @@ footer a {
 .footer-nav a:hover, .social-icon a:hover {
   color: var(--Desaturated-Blue);
   border-color: var(--Desaturated-Blue);
+}
+
+
+@media screen and (max-width: 66em) {
+  .main-input {
+    width: 100%;
+  }
+  .main-button {
+    width: 100%;
+  }
 }
