@@ -6,7 +6,7 @@
   --Bright-Blue: hsl(224, 93%, 58%);
   --Moderate-Cyan: hsl(170, 45%, 43%);
   --Light-Grayish-Blue: hsl(240, 75%, 98%);
-  --Light-Gray: hsl(0, 0%, 75%);
+  --Light-Gray: hsl(0, 0%, 43.5%);
 }
 * {
   margin: 0;
@@ -154,6 +154,7 @@ header {
   background-image: url(./images/icon-quotes.svg);
   background-repeat: no-repeat;
   background-position: top 11% left 9%;
+  min-width: 27.2rem;
 }
 .form-div,
 .form-picture,
@@ -181,6 +182,7 @@ header {
 }
 .user-info {
   font-size: 1.1rem;
+  color: var(--Light-Gray);
 }
 aside {
   background-color: var(--Desaturated-Blue);
@@ -294,13 +296,25 @@ footer a {
   .attribution {
     grid-row: 5;
   }
-}
-
-@media screen and (max-width: 51em) {
   header, .form-article {
     padding: 0 2.4rem;
   }
+  .grayish-blue-bg {
+    padding: 7rem 2.4rem;
 
+  }
+  aside {
+    padding: 8rem 2.4rem;
+
+  }
+  footer {
+    padding: 8rem 2.4rem;
+  }
+}
+
+
+@media screen and (max-width: 51em) {
+ 
   .form-article, .testimonial-article h2 {
     text-align: center;
   }
@@ -310,7 +324,6 @@ footer a {
   .grayish-blue-bg {
     align-items: center;
     justify-content: center;
-    padding: 7rem 2.4rem;
   }
   .fylo-work-link {
     margin: 4rem auto;
@@ -318,12 +331,7 @@ footer a {
   .testimonial-card {
     margin: 0 auto;
   }
-  aside {
-    row-gap: 2rem;
-    /* text-align: center; */
-    /* justify-items: center; */
-    padding: 8rem 2.4rem;
-  }
+ 
   .aside-btn {
     width: 100%;
   }
@@ -332,7 +340,7 @@ footer a {
 @media screen and (max-width: 47em) {
 
    .testimonial-article h2, .early-access h2 {
-    font-size: 2.7rem;
+    font-size: 2.5rem;
    }
 
   .footer-nav {
@@ -352,9 +360,37 @@ footer a {
     justify-self: center;
   }
 }
+@media screen and (max-width: 44.1875em) {
+  aside {
+    row-gap: 2rem;
+     text-align: center; 
+     justify-items: center; 
+  }
+
+  
+}
 @media screen and (max-width: 38em) {
   header {
     flex-direction: column;
     gap: 2rem;
   }
+}
+@media screen and (max-width: 27em) {
+  .testimonial-card {
+    background-position: top 10% left 10%;
+  }
+}
+
+
+@media screen and (max-width: 24em) {
+  .testimonial-card {
+    background-position: top 9% left 12%;
+  }
+
+}
+@media screen and (max-width: 20em) {
+  .testimonial-card {
+    background-position: top 9% left 14%;
+  }
+
 }
