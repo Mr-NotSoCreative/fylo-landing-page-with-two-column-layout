@@ -27,10 +27,10 @@ Users should be able to:
 
 ### Desktop Screenshot
 
-![img.png](./screenshot.jpg)
+![img.png](./images/Screenshot-desktop.png)
 ### Mobile Screenshot
 
-![img.png](./screenshot.jpg)
+![img.png](./images/Screenshot-mobile.png)
 
 
 
