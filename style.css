@@ -229,7 +229,6 @@ footer {
   grid-template-rows: auto auto auto;
   gap: 4rem 18rem;
   align-items: start;
- 
 }
 footer a {
   color: var(--Light-Grayish-Blue);
@@ -249,7 +248,7 @@ footer a {
 }
 .contact-info-div {
   display: grid;
-  gap: 1.5rem
+  gap: 1.5rem;
 }
 .contact-info-div img {
   margin-right: 1rem;
@@ -260,7 +259,6 @@ footer a {
 }
 
 .social-icon a {
- 
   border: 1px solid var(--Light-Grayish-Blue);
   border-radius: 50%;
   text-align: center;
@@ -276,11 +274,11 @@ footer a {
   grid-template-columns: repeat(2, 1fr);
   gap: 2rem 8rem;
 }
-.footer-nav a:hover, .social-icon a:hover {
+.footer-nav a:hover,
+.social-icon a:hover {
   color: var(--Desaturated-Blue);
   border-color: var(--Desaturated-Blue);
 }
-
 
 @media screen and (max-width: 66em) {
   .main-input {
@@ -291,21 +289,19 @@ footer a {
   }
 }
 @media screen and (max-width: 59em) {
-  header, .form-article {
+  header,
+  .form-article {
     padding: 0 2.4rem;
   }
   .grayish-blue-bg {
     padding: 7rem 2.4rem;
-
   }
   aside {
     padding: 8rem 2.4rem;
-
   }
   footer {
-    padding: 8rem 2.4rem 5rem 2.4rem;
+    padding: 8rem 2.4rem 3rem 2.4rem;
   }
-  
 }
 @media screen and (max-width: 57em) {
   footer {
@@ -314,10 +310,7 @@ footer a {
   .attribution {
     grid-row: 5;
   }
-  
- 
 }
-
 
 @media screen and (max-width: 51em) {
   aside {
@@ -332,11 +325,13 @@ footer a {
   .early-access {
     text-align: center;
   }
- 
-  .form-article, .testimonial-article h2 {
+
+  .form-article,
+  .testimonial-article h2 {
     text-align: center;
   }
-  .form-article, .grayish-blue-bg {
+  .form-article,
+  .grayish-blue-bg {
     flex-direction: column-reverse;
   }
   .grayish-blue-bg {
@@ -349,7 +344,7 @@ footer a {
   .testimonial-card {
     margin: 0 auto;
   }
- 
+
   .aside-btn {
     width: 100%;
     min-width: 27.2rem;
@@ -357,17 +352,16 @@ footer a {
   .main-button {
     min-width: 27.2rem;
   }
-  
 }
 @media screen and (max-width: 47em) {
   .form-div h2 {
     font-size: 2.7rem;
   }
 
-
-   .testimonial-article h2, .early-access h2 {
+  .testimonial-article h2,
+  .early-access h2 {
     font-size: 2.5rem;
-   }
+  }
 
   .footer-nav {
     grid-template-columns: 1fr;
@@ -399,12 +393,10 @@ footer a {
   }
 }
 
-
 @media screen and (max-width: 24em) {
   .testimonial-card {
     background-position: top 9% left 12%;
   }
-
 }
 @media screen and (max-width: 20em) {
   .testimonial-card {
@@ -416,5 +408,4 @@ footer a {
   .social-icon {
     justify-content: center;
   }
-
 }
