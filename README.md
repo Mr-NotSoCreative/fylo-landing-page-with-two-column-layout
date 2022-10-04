@@ -52,8 +52,3 @@ Users should be able to:
 
 - Frontend Mentor - [@Mr-NotSoCreative](https://www.frontendmentor.io/profile/Mr-NotSoCreative)
 - Github - [@Mr-NotSoCreative](https://github.com/Mr-NotSoCreative)
-
-
-
-
-
