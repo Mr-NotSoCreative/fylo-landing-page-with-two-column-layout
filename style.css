@@ -86,6 +86,7 @@ header {
   width: 55%;
   padding: 1rem 2rem;
   /* margin-right: 1rem; */
+  min-width: 27.2rem;
 }
 .main-button {
   border: none;
@@ -96,7 +97,6 @@ header {
   font-family: "Raleway", sans-serif;
   cursor: pointer;
   border-radius: 0.5rem;
-  min-width: 18.5rem;
 }
 .main-button:hover {
   background-color: hsla(224, 93%, 58%, 0.801);
@@ -203,6 +203,7 @@ aside {
   width: 100%;
   padding: 1rem 2rem;
   margin-bottom: 1.5rem;
+  min-width: 27.2rem;
 }
 .aside-btn {
   border: none;
@@ -213,7 +214,6 @@ aside {
   font-family: "Raleway", sans-serif;
   cursor: pointer;
   border-radius: 0.5rem;
-  min-width: 18.5rem;
 }
 .aside-btn:hover {
   background-color: #6e9aff;
@@ -226,7 +226,7 @@ footer {
   display: grid;
   grid-template-columns: auto 1fr 1fr;
   grid-template-rows: auto auto auto;
-  gap: 3rem 18rem;
+  gap: 4rem 18rem;
   align-items: start;
  
 }
@@ -346,6 +346,10 @@ footer a {
  
   .aside-btn {
     width: 100%;
+    min-width: 27.2rem;
+  }
+  .main-button {
+    min-width: 27.2rem;
   }
   
 }
