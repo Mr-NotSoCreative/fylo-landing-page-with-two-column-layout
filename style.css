@@ -214,6 +214,7 @@ aside {
   font-family: "Raleway", sans-serif;
   cursor: pointer;
   border-radius: 0.5rem;
+  min-width: 27.2rem;
 }
 .aside-btn:hover {
   background-color: #6e9aff;
@@ -289,13 +290,7 @@ footer a {
     width: 100%;
   }
 }
-@media screen and (max-width: 57em) {
-  footer {
-    grid-template-columns: 1fr;
-  }
-  .attribution {
-    grid-row: 5;
-  }
+@media screen and (max-width: 59em) {
   header, .form-article {
     padding: 0 2.4rem;
   }
@@ -308,8 +303,19 @@ footer a {
 
   }
   footer {
-    padding: 8rem 2.4rem;
+    padding: 8rem 2.4rem 5rem 2.4rem;
   }
+  
+}
+@media screen and (max-width: 57em) {
+  footer {
+    grid-template-columns: 1fr;
+  }
+  .attribution {
+    grid-row: 5;
+  }
+  
+ 
 }
 
 
@@ -399,6 +405,12 @@ footer a {
 @media screen and (max-width: 20em) {
   .testimonial-card {
     background-position: top 9% left 14%;
+  }
+  footer > * {
+    min-width: 27.2rem;
+  }
+  .social-icon {
+    justify-content: center;
   }
 
 }
