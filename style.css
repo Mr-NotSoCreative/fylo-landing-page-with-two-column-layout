@@ -360,6 +360,10 @@ footer a {
   
 }
 @media screen and (max-width: 47em) {
+  .form-div h2 {
+    font-size: 2.7rem;
+  }
+
 
    .testimonial-article h2, .early-access h2 {
     font-size: 2.5rem;
