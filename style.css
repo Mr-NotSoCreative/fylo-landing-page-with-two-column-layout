@@ -189,7 +189,7 @@ aside {
   color: white;
   padding: 8rem;
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(33.4rem, 1fr));
   align-items: center;
   gap: 10rem;
 }
@@ -314,6 +314,18 @@ footer a {
 
 
 @media screen and (max-width: 51em) {
+  aside {
+    grid-template-columns: 1fr;
+    gap: 3rem;
+  }
+  aside > * {
+    max-width: 53rem;
+    margin: 0 auto;
+    width: 100%;
+  }
+  .early-access {
+    text-align: center;
+  }
  
   .form-article, .testimonial-article h2 {
     text-align: center;
