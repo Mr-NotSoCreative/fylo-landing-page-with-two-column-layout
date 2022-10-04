@@ -372,15 +372,7 @@ footer a {
     justify-self: center;
   }
 }
-@media screen and (max-width: 44.1875em) {
-  aside {
-    row-gap: 2rem;
-     text-align: center; 
-     justify-items: center; 
-  }
 
-  
-}
 @media screen and (max-width: 38em) {
   header {
     flex-direction: column;
